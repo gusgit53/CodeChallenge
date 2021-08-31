@@ -9,11 +9,11 @@ namespace CodeChallenge.Controllers
 {
 	[ApiController]
 	[Route("api/[controller]/[action]")]
-	public class codeChallengeController : ControllerBase
+	public class CodeChallengeController : ControllerBase
 	{
 		private readonly IService _service;
 
-		public codeChallengeController(IService service)
+		public CodeChallengeController(IService service)
 		{
 			_service = service;
 		}
